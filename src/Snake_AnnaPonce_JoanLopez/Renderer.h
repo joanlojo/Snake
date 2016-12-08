@@ -44,7 +44,7 @@ public:
 		IMG_Quit();
 		TTF_Quit();
 	}
-	template<ObjectID objectID> void LoadTexture(std::string &&filename) {
+	template<ObjectID objectID> void LoadTexture(std::string &&filename) {	
 		//Load image at specified path
 		auto loadedSurface = IMG_Load(RESOURCE_FILE(filename));
 		ASSERT_MSG(loadedSurface != nullptr, "Unable to load image " + filename);

@@ -6,7 +6,7 @@
 #define W Window::Instance()
 
 // Window class to store the whole info related to the game screen interface
-class Window {
+/*class Window {
 	Window(const std::string &&name, int &&screenWidth, int &&screenHeight) : m_name(name), m_screenWidth(screenWidth), m_screenHeight(screenHeight) {
 		//Initialize SDL & Set texture filtering to linear
 		ASSERT(!SDL_Init(SDL_INIT_EVERYTHING));
@@ -34,4 +34,4 @@ private:
 	SDL_Window* m_SDLWindow{ nullptr };
 	const int m_screenWidth, m_screenHeight;
 	const std::string m_name;
-};
+};*/
